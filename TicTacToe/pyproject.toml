@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "tictactoe"
+version = "0.1.0"
+description = ""
+authors = ["Tad Sampson <tad.sampson@proton.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pygame = "^2.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
